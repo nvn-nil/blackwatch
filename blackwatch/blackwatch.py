@@ -1,7 +1,7 @@
 import logging
 from cleo import Application
 
-from .commands import WatchCommand
+from blackwatch.commands import WatchCommand
 
 
 logger = logging.getLogger(__name__)

@@ -3,8 +3,8 @@ from distutils.core import setup
 
 setup(
     name="blackwatch",
-    packages=["blackwatch"],
-    version="0.1.0",
+    packages=["blackwatch", "blackwatch.commands", "blackwatch.handlers"],
+    version="0.1.1",
     license="MIT",
     description="Watches a folder for file system events and run optional command (if required)",
     author="Naveen Anil",
