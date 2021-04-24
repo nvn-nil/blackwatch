@@ -11,6 +11,7 @@ setup(
     author_email="blackwatch@nvn-nil.in",
     url="https://github.com/nvn-nil/blackwatch",
     download_url="https://github.com/nvn-nil/blackwatch/archive/refs/tags/0.1.0.tar.gz",
+    entry_points={"console_scripts": ["blackwatch = blackwatch:main"]},
     keywords=["DEVTOOL", "UTILITY", "CLI"],
     install_requires=["cleo==0.8.1", "watchdog==2.0.3"],
     classifiers=[

@@ -1,4 +1,4 @@
-from .blackwatch import application
+from . import main
 
 
-application.run()
+main()
